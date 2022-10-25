@@ -178,7 +178,7 @@ if __UAnEv1__.Games.BadBusiness then
     BBCharactersTable = getupvalue(BBPlayersTable.GetCharacter, 1);
 end;
 
-local Configs = httpassert('https://raw.githubusercontent.com/TechHog8984/Configclass/main/Class.lua', 'Failed to get config handler')
+local Configs = httpassert('https://raw.githubusercontent.com/loi31/nothing/main/delta/class.lua', 'Failed to get config handler')
 
 local before = isfile('UAnEv1/main.config')
 local Config = Configs:Config{path = 'UAnEv1/main.config'}
